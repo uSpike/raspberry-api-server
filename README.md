@@ -1,4 +1,4 @@
-# raspberry-api
+# raspberry-api-server
 A RESTful API to the Raspberry Pi with Flask
 
 [![Build Status](https://travis-ci.org/uSpike/raspberry-api-server.svg?branch=master)](https://travis-ci.org/uSpike/raspberry-api-server)
@@ -13,3 +13,4 @@ $ python -m rpi_api.server.app
 - SPI
 - GPIO
 - UART (planned)
+- I<sup>2</sup>C (planned)
