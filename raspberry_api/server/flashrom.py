@@ -65,7 +65,7 @@ class Flashrom(object):
 
     def _run_cmdline(self, job, cmd, **kwargs):
 
-        filename = kwargs.get('filename')
+        filename = kwargs.get('filename', '')
         cmdname = self.cmds.get(cmd)
         args = [self.program, cmdname.format(filename)]
 
