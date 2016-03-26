@@ -1,0 +1,5 @@
+# required packages for development, see http://engbuild-doc/auto/pydoc/guide.html#development-requirements
+tox
+nose
+coverage
+flask-testing
